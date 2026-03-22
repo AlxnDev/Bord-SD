@@ -13,7 +13,7 @@ jobs:
       fail-fast: false
       matrix:
         # Probamos en varias versiones de Python para asegurar compatibilidad
-        python-version: ["3.14"]
+        python-version: ["3.10.5"]
 
     steps:
     - name: Checkout de mi repositorio
